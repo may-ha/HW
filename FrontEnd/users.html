@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="header-nav">
+      <div class="title">
+        <div><h3>GoMake Dashborad</h3></div>
+      </div>
+      <div class="right-nav">
+        <div><a href="/login.html">Sign out</a></div>
+      </div>
+    </div>
+    <div class="contain-bd">
+      <div class="route">
+        <div>
+          <h3>Dashborad</h3>
+        </div>
+      </div>
+      <div class="vertical-nav">
+        <div class="name-users">
+          <div><h5>Mai Hamduni</h5></div>
+          <div><h6>Admin</h6></div>
+        </div>
+
+        <div class="terms">
+          <div class="product-add"><a href="/product.html">Product</a></div>
+        </div>
+        <div class="inervoty">
+          <div class="invertory-add">
+            <a href="/inventory.html">inventory</a>
+          </div>
+        </div>
+        <div class="user-terms-for-admin">
+          <div class="users-add"><a href="/users.html">Users</a></div>
+        </div>
+      </div>
+    </div>
+    <div class="table-users">
+      <div class="nav-bar-head">
+        <div>
+          <button onclick="Toggle()" class="button-plus-user">+</button>
+        </div>
+      </div>
+      <div class="container">
+        <div class="table" id="dataTable">
+          <div><h4>users</h4></div>
+          <div class="container-product" id="table-content">
+            <table class="user">
+              <thead>
+                <tr>
+                  <th>username</th>
+                  <th>full name</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody id="tbody"></tbody>
+            </table>
+          </div>
+        </div>
+        <div id="add-show" class="popup" style="display: none">
+          <div class="add-user inner">
+            <div>
+              <input type="text" name="username" placeholder="username" />
+            </div>
+            <div>
+              <input type="text" name="fullname" placeholder="fullname" />
+            </div>
+            <div>
+              <input type="text" name="password" placeholder="password" />
+            </div>
+            <div class="btn-add-wid">
+              <button class="add-btn-user" onclick="addUser(this)">
+                Add user
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="popup update-pop" style="display: none">
+          <div class="update-user inner" id="update">
+            <div>
+              <input
+                type="text"
+                name="username"
+                placeholder="username"
+                id="username"
+              />
+            </div>
+            <div>
+              <input type="text" name="name" placeholder="fullname" id="name" />
+            </div>
+            <div class="btn-add-wid-2">
+              <button class="add-btn-user" onclick="updateUsers()">
+                Update User
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/users.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
