@@ -1965,11 +1965,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mayh9\\OneDrive\\שולחן העבודה\\Mission1\\BackEnd\\Mission\\Mission.csproj",
+      "projectUniqueName": "C:\\Users\\mayh9\\OneDrive\\שולחן העבודה\\HW\\BackEnd\\Mission\\Mission.csproj",
       "projectName": "Mission",
-      "projectPath": "C:\\Users\\mayh9\\OneDrive\\שולחן העבודה\\Mission1\\BackEnd\\Mission\\Mission.csproj",
+      "projectPath": "C:\\Users\\mayh9\\OneDrive\\שולחן העבודה\\HW\\BackEnd\\Mission\\Mission.csproj",
       "packagesPath": "C:\\Users\\mayh9\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mayh9\\OneDrive\\שולחן העבודה\\Mission1\\BackEnd\\Mission\\obj\\",
+      "outputPath": "C:\\Users\\mayh9\\OneDrive\\שולחן העבודה\\HW\\BackEnd\\Mission\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mayh9\\AppData\\Roaming\\NuGet\\NuGet.Config",
